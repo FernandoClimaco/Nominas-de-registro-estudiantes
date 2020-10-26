@@ -1,0 +1,11 @@
+
+
+create database crudpromedio
+
+CREATE TABLE `usuario` (
+  `Id` int(11) NOT NULL,
+  `DNI` int(11) NOT NULL,
+  `Nombres` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
